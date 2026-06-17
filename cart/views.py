@@ -5,24 +5,39 @@ from products.models import Product
 
 def add_to_cart(request, product_id):
 
+    if not request.user.is_authenticated:
+        return redirect('login')
+
     product = Product.objects.get(
         id=product_id
     )
 
+    quantity = int(
+        request.POST.get('quantity', 1)
+    )
+
     cart_item, created = CartItem.objects.get_or_create(
+        user=request.user,
         product=product
     )
 
-    if not created:
-        cart_item.quantity += 1
-        cart_item.save()
+    if created:
+        cart_item.quantity = quantity
+    else:
+        cart_item.quantity += quantity
 
-    return redirect('cart')
+    cart_item.save()
 
+    return redirect(f'/product/{product.id}/')
 
 def cart_view(request):
 
-    cart_items = CartItem.objects.all()
+    if not request.user.is_authenticated:
+        return redirect('login')
+
+    cart_items = CartItem.objects.filter(
+        user=request.user
+    )
 
     total = 0
 
