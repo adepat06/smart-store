@@ -20,6 +20,7 @@ https://github.com/adepat06/smart-store
 
 ### Homepage
 
+<<<<<<< HEAD
 ![Homepage](Homepage.png)
 
 ### Product Catalog
@@ -29,6 +30,23 @@ https://github.com/adepat06/smart-store
 ### Product Details
 
 ![Product Details](View%20Product.png)
+=======
+![Homepage](screenshots/Homepage.png)
+
+---
+
+### Product Catalog
+
+![Products](screenshots/Homepage%202.png)
+
+---
+
+### Product Details
+
+![Product Details](screenshots/View%20Product.png)
+
+---
+>>>>>>> 9fa33d0 (Improve README with screenshots)
 
 ### Shopping Cart
 
@@ -36,11 +54,23 @@ https://github.com/adepat06/smart-store
 
 ### Order Success
 
+<<<<<<< HEAD
 ![Order Success](Success.png)
 
 ### Order History
 
 ![Orders](Order.png)
+=======
+![Order Success](screenshots/Success.png)
+
+---
+
+### Order History
+
+![Orders](screenshots/Order.png)
+
+---
+>>>>>>> 9fa33d0 (Improve README with screenshots)
 
 ## ✨ Features
 
@@ -62,9 +92,9 @@ https://github.com/adepat06/smart-store
 ### 🛍 Cart System
 
 - Add Products To Cart
-- Update Quantity
-- Cart Total Calculation
 - User-Specific Cart
+- Quantity Management
+- Cart Total Calculation
 
 ### 📦 Order Management
 
@@ -117,26 +147,28 @@ https://github.com/adepat06/smart-store
 smart_store/
 │
 ├── accounts/
-│   ├── models.py
 │   ├── views.py
-│   └── urls.py
+│   ├── urls.py
+│   └── models.py
 │
 ├── products/
-│   ├── models.py
 │   ├── views.py
-│   └── urls.py
+│   ├── urls.py
+│   └── models.py
 │
 ├── cart/
-│   ├── models.py
 │   ├── views.py
-│   └── urls.py
+│   ├── urls.py
+│   └── models.py
 │
 ├── orders/
-│   ├── models.py
 │   ├── views.py
-│   └── urls.py
+│   ├── urls.py
+│   └── models.py
 │
 ├── templates/
+│
+├── screenshots/
 │
 ├── config/
 │
@@ -193,7 +225,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-### 7. Run Server
+### 7. Run Development Server
 
 ```bash
 python manage.py runserver
@@ -216,30 +248,13 @@ During this project I learned:
 - Django Authentication
 - URL Routing
 - Template Rendering
-- CRUD Operations
-- Cart Logic
-- Order Processing
 - Database Relationships
+- Cart Functionality
+- Order Processing Workflow
 - Git & GitHub Workflow
-- Deployment using Render
-- Debugging Real Production Issues
-
----
-
-## 🔮 Future Improvements
-
-Planned upgrades:
-
-- Product Search
-- Product Categories
-- Product Filters
-- Wishlist
-- User Profiles
-- Razorpay Payment Integration
-- Admin Dashboard Analytics
-- Product Reviews & Ratings
-- Email Notifications
-- Inventory Management
+- Deployment Using Render
+- Debugging Production Issues
+- Responsive UI Design
 
 ---
 
@@ -257,31 +272,42 @@ Planned upgrades:
 
 ---
 
+## 🔮 Future Improvements
+
+Planned upgrades:
+
+- Product Search
+- Product Categories
+- Product Filters
+- Wishlist Functionality
+- User Profiles
+- Razorpay Payment Integration
+- Product Reviews & Ratings
+- Email Notifications
+- Inventory Management
+- Admin Dashboard Analytics
+
+---
+
 ## 🌟 Project Status
 
-✅ Completed
+### Version 1.0
 
-Current Version:
+✅ Completed and Deployed
 
-```text
-Version 1.0
-```
+Implemented Features:
 
-Features implemented:
-
-```text
-✔ Registration
-✔ Login
-✔ Logout
-✔ Product Catalog
-✔ Product Detail Page
-✔ Shopping Cart
-✔ Quantity Selection
-✔ Checkout
-✔ Order Success Page
-✔ Order History
-✔ Deployment
-```
+- ✔ User Registration
+- ✔ User Login
+- ✔ User Logout
+- ✔ Product Catalog
+- ✔ Product Detail Page
+- ✔ Shopping Cart
+- ✔ Quantity Selection
+- ✔ Checkout Process
+- ✔ Order Success Page
+- ✔ Order History
+- ✔ Cloud Deployment
 
 ---
 
@@ -302,7 +328,3 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 It helps others discover the project and supports future development.
 
 ---
-
-## 📜 License
-
-This project is created for educational and portfolio purposes.
