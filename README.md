@@ -18,55 +18,29 @@ https://github.com/adepat06/smart-store
 
 ---
 
-## 📸 Screenshots
-
 ### Homepage
 
-![Homepage](screenshots/homepage.png)
-
----
+![Homepage](Homepage.png)
 
 ### Product Catalog
 
-![Products](screenshots/products.png)
-
----
+![Products](Homepage%202.png)
 
 ### Product Details
 
-![Product Details](screenshots/product-detail.png)
-
----
+![Product Details](View%20Product.png)
 
 ### Shopping Cart
 
-![Cart](screenshots/cart.png)
-
----
+![Cart](cart.png)
 
 ### Order Success
 
-![Order Success](screenshots/order-success.png)
-
----
+![Order Success](Success.png)
 
 ### Order History
 
-![Orders](screenshots/orders.png)
-
----
-
-### User Registration
-
-![Register](screenshots/register.png)
-
----
-
-### User Login
-
-![Login](screenshots/login.png)
-
----
+![Orders](Order.png)
 
 ## ✨ Features
 
