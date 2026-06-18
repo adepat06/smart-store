@@ -18,19 +18,10 @@ https://github.com/adepat06/smart-store
 
 ---
 
+## 📸 Screenshots
+
 ### Homepage
 
-<<<<<<< HEAD
-![Homepage](Homepage.png)
-
-### Product Catalog
-
-![Products](Homepage%202.png)
-
-### Product Details
-
-![Product Details](View%20Product.png)
-=======
 ![Homepage](screenshots/Homepage.png)
 
 ---
@@ -46,21 +37,15 @@ https://github.com/adepat06/smart-store
 ![Product Details](screenshots/View%20Product.png)
 
 ---
->>>>>>> 9fa33d0 (Improve README with screenshots)
 
 ### Shopping Cart
 
-![Cart](cart.png)
+![Cart](screenshots/cart.png)
+
+---
 
 ### Order Success
 
-<<<<<<< HEAD
-![Order Success](Success.png)
-
-### Order History
-
-![Orders](Order.png)
-=======
 ![Order Success](screenshots/Success.png)
 
 ---
@@ -70,46 +55,45 @@ https://github.com/adepat06/smart-store
 ![Orders](screenshots/Order.png)
 
 ---
->>>>>>> 9fa33d0 (Improve README with screenshots)
 
 ## ✨ Features
 
 ### 👤 User Authentication
 
-- User Registration
-- User Login
-- User Logout
-- Secure Password Storage
+* User Registration
+* User Login
+* User Logout
+* Secure Password Storage
 
 ### 🛒 Shopping Experience
 
-- Product Listing Page
-- Product Detail Page
-- Product Images
-- Product Descriptions
-- Quantity Selection
+* Product Listing Page
+* Product Detail Page
+* Product Images
+* Product Descriptions
+* Quantity Selection
 
 ### 🛍 Cart System
 
-- Add Products To Cart
-- User-Specific Cart
-- Quantity Management
-- Cart Total Calculation
+* Add Products To Cart
+* User-Specific Cart
+* Quantity Management
+* Cart Total Calculation
 
 ### 📦 Order Management
 
-- Checkout Process
-- Order Success Page
-- Order History
-- Multiple Products Per Order
+* Checkout Process
+* Order Success Page
+* Order History
+* Multiple Products Per Order
 
 ### 🎨 User Interface
 
-- Responsive Design
-- Bootstrap 5 Styling
-- Mobile-Friendly Layout
-- Navigation Bar
-- Product Cards
+* Responsive Design
+* Bootstrap 5 Styling
+* Mobile-Friendly Layout
+* Navigation Bar
+* Product Cards
 
 ---
 
@@ -117,27 +101,27 @@ https://github.com/adepat06/smart-store
 
 ### Backend
 
-- Python 3
-- Django 4
+* Python 3
+* Django 4
 
 ### Frontend
 
-- HTML5
-- CSS3
-- Bootstrap 5
+* HTML5
+* CSS3
+* Bootstrap 5
 
 ### Database
 
-- SQLite
+* SQLite
 
 ### Deployment
 
-- Render
+* Render
 
 ### Version Control
 
-- Git
-- GitHub
+* Git
+* GitHub
 
 ---
 
@@ -147,33 +131,13 @@ https://github.com/adepat06/smart-store
 smart_store/
 │
 ├── accounts/
-│   ├── views.py
-│   ├── urls.py
-│   └── models.py
-│
 ├── products/
-│   ├── views.py
-│   ├── urls.py
-│   └── models.py
-│
 ├── cart/
-│   ├── views.py
-│   ├── urls.py
-│   └── models.py
-│
 ├── orders/
-│   ├── views.py
-│   ├── urls.py
-│   └── models.py
-│
 ├── templates/
-│
 ├── screenshots/
-│
 ├── config/
-│
 ├── manage.py
-│
 └── requirements.txt
 ```
 
@@ -201,13 +165,13 @@ python -m venv venv
 
 ### 4. Activate Virtual Environment
 
-#### Mac/Linux
+Mac/Linux:
 
 ```bash
 source venv/bin/activate
 ```
 
-#### Windows
+Windows:
 
 ```bash
 venv\Scripts\activate
@@ -241,51 +205,47 @@ http://127.0.0.1:8000/
 
 ## 🧠 What I Learned
 
-During this project I learned:
-
-- Django Project Structure
-- Django Models
-- Django Authentication
-- URL Routing
-- Template Rendering
-- Database Relationships
-- Cart Functionality
-- Order Processing Workflow
-- Git & GitHub Workflow
-- Deployment Using Render
-- Debugging Production Issues
-- Responsive UI Design
+* Django Project Structure
+* Django Models
+* Django Authentication
+* URL Routing
+* Template Rendering
+* Database Relationships
+* Cart Functionality
+* Order Processing Workflow
+* Git & GitHub Workflow
+* Deployment Using Render
+* Debugging Production Issues
+* Responsive UI Design
 
 ---
 
 ## 🎯 Key Concepts Implemented
 
-- Django ORM
-- Foreign Keys
-- User Authentication
-- Session Management
-- Dynamic Templates
-- Form Handling
-- Responsive Design
-- Database Migrations
-- Production Deployment
+* Django ORM
+* Foreign Keys
+* User Authentication
+* Session Management
+* Dynamic Templates
+* Form Handling
+* Responsive Design
+* Database Migrations
+* Production Deployment
 
 ---
 
 ## 🔮 Future Improvements
 
-Planned upgrades:
-
-- Product Search
-- Product Categories
-- Product Filters
-- Wishlist Functionality
-- User Profiles
-- Razorpay Payment Integration
-- Product Reviews & Ratings
-- Email Notifications
-- Inventory Management
-- Admin Dashboard Analytics
+* Product Search
+* Product Categories
+* Product Filters
+* Wishlist Functionality
+* User Profiles
+* Razorpay Payment Integration
+* Product Reviews & Ratings
+* Email Notifications
+* Inventory Management
+* Admin Dashboard Analytics
 
 ---
 
@@ -297,17 +257,17 @@ Planned upgrades:
 
 Implemented Features:
 
-- ✔ User Registration
-- ✔ User Login
-- ✔ User Logout
-- ✔ Product Catalog
-- ✔ Product Detail Page
-- ✔ Shopping Cart
-- ✔ Quantity Selection
-- ✔ Checkout Process
-- ✔ Order Success Page
-- ✔ Order History
-- ✔ Cloud Deployment
+* ✔ User Registration
+* ✔ User Login
+* ✔ User Logout
+* ✔ Product Catalog
+* ✔ Product Detail Page
+* ✔ Shopping Cart
+* ✔ Quantity Selection
+* ✔ Checkout Process
+* ✔ Order Success Page
+* ✔ Order History
+* ✔ Cloud Deployment
 
 ---
 
@@ -328,3 +288,7 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 It helps others discover the project and supports future development.
 
 ---
+
+## 📜 License
+
+This project was created for educational and portfolio purposes.
