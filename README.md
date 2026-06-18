@@ -313,7 +313,7 @@ Features implemented:
 
 ## 👩‍💻 Author
 
-### Adelin Patricia
+### Adelin Patricia A
 
 GitHub:
 
